@@ -37,10 +37,9 @@ while wait(3) do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-320.979309, 19.8034077, 290.283936, 0.836486042, 1.4470386e-09, 0.547988296, -1.10818388e-09, 1, -9.49031631e-10, -0.547988296, 1.86579918e-10, 0.836486042)
      break
 end
-
-
-
-
+game:GetService("ProximityPromptService").PromptButtonHoldBegan:Connect(function(prompt)
+  fireproximityprompt(prompt)
+end)
 end)
 
 ff:Label("speed Settings")
