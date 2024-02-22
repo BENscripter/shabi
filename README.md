@@ -73,12 +73,6 @@ end)
 ff:Button("Reset Speed!", function()
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 14
 end)
-
-ff:Label("Instant Interact")
-ff:Button("Press", function()
-game:GetService("ProximityPromptService").PromptButtonHoldBegan:Connect(function(prompt)
-  fireproximityprompt(prompt)
-end)
  
 local Examples = Luxt:Tab("Log")
 local ff = Examples:Section("Check What Feuture [NEW]") 
