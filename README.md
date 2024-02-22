@@ -77,7 +77,7 @@ end)
 local Examples = Luxt:Tab("Fullbright")
 local ff = Examples:Section(" Fullbright [NEW]") 
 
-ff:Button("Reset Speed!", function()
+ff:Button("Fullbright", function()
 if not _G.FullBrightExecuted then
 
 	_G.FullBrightEnabled = false
