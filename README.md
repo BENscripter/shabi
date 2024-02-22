@@ -1,6 +1,6 @@
 local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))() 
  
-local Luxt = Luxtl.CreateWindow("Ver 0.25", 6105620301)  
+local Luxt = Luxtl.CreateWindow("Ver 0.25", 6105620301)   
 
 local Examples = Luxt:Tab("Auto Pull Box") 
 local ff = Examples:Section("Make u Auto Pull Box") 
