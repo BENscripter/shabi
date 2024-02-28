@@ -1,6 +1,6 @@
 local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))() 
   
-local Luxt = Luxtl.CreateWindow("Ver 0.27", 6105620301)    
+local Luxt = Luxtl.CreateWindow("Ver 0.3", 6105620301)    
 
 local Examples = Luxt:Tab("Auto Pull Box") 
 local ff = Examples:Section("Make u Auto Pull Box") 
@@ -67,6 +67,14 @@ ff:Button("X11", function()
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 310
 end)
 
+ff:Button("X15", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 800
+end)
+
+ff:Button("X20", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1400
+end)
+
 
 
 ff:Button("Reset Speed!", function()
@@ -98,7 +106,7 @@ if not _G.FullBrightExecuted then
 					wait()
 				until _G.FullBrightEnabled
 			end
-			game:GetService("Lighting").Brightness = 3
+			game:GetService("Lighting").Brightness = 10
 		end
 	end)
 
@@ -110,7 +118,7 @@ if not _G.FullBrightExecuted then
 					wait()
 				until _G.FullBrightEnabled
 			end
-			game:GetService("Lighting").ClockTime = 14
+			game:GetService("Lighting").ClockTime = 15
 		end
 	end)
 
@@ -150,8 +158,8 @@ if not _G.FullBrightExecuted then
 		end
 	end)
 
-	game:GetService("Lighting").Brightness = 3
-	game:GetService("Lighting").ClockTime = 14
+	game:GetService("Lighting").Brightness = 10
+	game:GetService("Lighting").ClockTime = 15
 	game:GetService("Lighting").FogEnd = 786543
 	game:GetService("Lighting").GlobalShadows = false
 	game:GetService("Lighting").Ambient = Color3.fromRGB(178, 178, 178)
@@ -170,8 +178,8 @@ if not _G.FullBrightExecuted then
 					game:GetService("Lighting").GlobalShadows = _G.NormalLightingSettings.GlobalShadows
 					game:GetService("Lighting").Ambient = _G.NormalLightingSettings.Ambient
 				else
-					game:GetService("Lighting").Brightness = 1
-					game:GetService("Lighting").ClockTime = 12
+					game:GetService("Lighting").Brightness = 10
+					game:GetService("Lighting").ClockTime = 15
 					game:GetService("Lighting").FogEnd = 786543
 					game:GetService("Lighting").GlobalShadows = false
 					game:GetService("Lighting").Ambient = Color3.fromRGB(178, 178, 178)
@@ -186,6 +194,14 @@ _G.FullBrightExecuted = true
 _G.FullBrightEnabled = not _G.FullBrightEnabled
 
 end) 
+
+local Examples = Luxt:Tab("Funny")
+local ff = Examples:Section("I kidding dont do it") 
+
+ff:Button("Bruh Dont Press It", function()
+   game.Players.LocalPlayer:Kick("Bruh Rlly U BlackListed bruh. (Error Code:Fun) ")
+end)
+
 
 local Examples = Luxt:Tab("Log")
 local ff = Examples:Section("Check What Feuture [NEW]") 
@@ -214,3 +230,11 @@ ff:Label("V0.27")
 ff:Label("Added full bright To make u More see Modded")
 ff:Label("And Fixed And Added Instant Interact To 1. next to 2.")
 ff:Label("Updated Was From 2/22/8:52")
+
+ff:Label("-------------------------------")
+ff:Label("V0.3")
+ff:Label("No upgraded auto farm")
+ff:Label("Modded again FullBright")
+ff:Label("Added X15 And X20")
+ff:Label("Updated Was From 2/29/12:04")
+ff:Label("Next Update In 3/2/????")
