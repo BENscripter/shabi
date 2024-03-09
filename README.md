@@ -1,6 +1,6 @@
 local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))() 
   
-local Luxt = Luxtl.CreateWindow("Ver 0.3", 6105620301)    
+local Luxt = Luxtl.CreateWindow("Ver 0.35", 6105620301)    
 
 local Examples = Luxt:Tab("Auto Pull Box") 
 local ff = Examples:Section("Make u Auto Pull Box") 
@@ -48,7 +48,7 @@ game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 28
 end)
 
 ff:Button("X3", function()
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 41
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 45
 end)
 
 ff:Button("X5", function()
@@ -238,3 +238,9 @@ ff:Label("Modded again FullBright")
 ff:Label("Added X15 And X20")
 ff:Label("Updated Was From 2/29/12:04")
 ff:Label("Next Update In 3/2/????")
+
+ff:Label("-------------------------------")
+ff:Label("Added key system for now on")
+ff:Label("Changed Speed x3 into 45")
+ff:Label("Updated Was From  3/10/3:52")
+ff:Label("Next Update In 3/16/1pm to 7pm")
